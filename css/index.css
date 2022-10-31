@@ -50,7 +50,8 @@ header {
 
 header>div {
   margin: 0 auto;
-  max-width: 1160px;
+  /* width: 1160px; */
+  width: 98%;
 
   display: flex;
   align-items: center;
@@ -126,13 +127,15 @@ header>.btn {
   transform: translate(-50%,0);
   color: #fff;
 
-  width: 1130px;
+  /* width: 1130px; */
+  width: 97.4%;
   
 }
 
 #box01>ul>li {
   width: 33.333%;
 }
+
 #box01>ul>li>span {
   display: block;
   /* %값 안하기 */
@@ -181,16 +184,19 @@ header>.btn {
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
-  max-width: 1160px;
+  /* max-width: 1160px; */
+  max-width: 98%;
   width: 100%;
 }
 
 #box02>section>h4 {
-  width: 312px;
+  /* width: 312px; */
+  width: 26.8%;
 }
 
 section>ul {
-  width: 736px;
+  /* width: 736px; */
+  width: 63.4%;
 }
 
 #box02>section.info {
@@ -211,6 +217,7 @@ section>ul {
 
 #box02>section.info>ul>li>dfn {
   display: inline-block;
+  /*  */
   width: 145px;
 }
 
@@ -304,7 +311,8 @@ section>ul {
 
 #gallery>#show>#all {
   margin: 0 auto;
-  max-width: 1160px;
+  /* max-width: 1130px; */
+  max-width: 97.4%;
   width: 100%;
 
   display: flex;
@@ -372,12 +380,14 @@ section>ul {
 }
 #box04>div {
   margin: 0 auto;
-  max-width: 1160px;
+  /* max-width: 1160px; */
+  max-width: 98%;
   width: 100%;
 }
 
 #box04>div>form {
-  width: 1066px;
+  /* width: 1066px; */
+  width: 91.5%;
 }
 
 #box04 form ul {}
