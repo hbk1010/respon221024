@@ -376,6 +376,73 @@ section>ul {
   background: rgba(0,0,0,0.7);
 }
 
+#modal>.close {
+  position: absolute;
+  right: 30px;
+  top: 30px;
+  width: 30px;
+  height: 30px;
+  background: red;
+}
+
+#modal>section {
+  position: fixed;
+  width: 980px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+
+  padding: 25px;
+  background: #fff;
+  box-sizing: border-box;
+}
+
+#modal>section>h5 {
+  margin-bottom: 40px;
+  font-size: 28px;
+  text-align: center;
+  color: #666;
+}
+
+#modal>section>div {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#modal>section>div>figure {
+  width: 40%;
+}
+
+#modal>section>div>dl {
+  width: 50%;
+  font-size: 20px;
+  line-height: 27px;
+}
+
+#modal>section>div>dl>dt {
+  width: 35%;
+  clear: both;
+  float: left;
+  border-bottom: 1px solid #666;
+  margin-bottom: 20px;
+}
+
+#modal>section>div>dl>dd {
+  width: 65%;
+  float: left;
+  border-bottom: 1px solid #666;
+  margin-bottom: 20px;
+}
+
+#modal>section>div>dl>dt:nth-of-type(4){
+  border-bottom: none;
+}
+
+#modal>section>div>dl>dd:nth-of-type(4){
+  border-bottom: none;
+}
+
 /* box04 */
 
 #box04 {
@@ -443,6 +510,7 @@ section>ul {
   box-sizing: border-box;
   width: 100%;
   background: #fff;
+  line-height: 50px;
 }
 
 #box04 form ul>li{}
